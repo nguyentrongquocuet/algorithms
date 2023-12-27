@@ -1,0 +1,1 @@
+# Solution to Codility problem
