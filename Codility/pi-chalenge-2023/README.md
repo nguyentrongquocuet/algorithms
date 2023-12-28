@@ -1,3 +1,9 @@
+---
+tags:
+  - dp
+  - recursion
+---
+
 # Minimum distinct letters
 
 https://app.codility.com/programmers/custom_challenge/pi_challenge_2023/

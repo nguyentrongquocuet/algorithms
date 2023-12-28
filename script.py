@@ -70,7 +70,12 @@ def createFile(path: Path, fileName: str, content: str):
     return True
 
 
-README = """# <Problem name>
+README = """---
+tags:
+  - tag1
+  - tag2
+---
+# <Problem name>
 
 # Problem Overview
 
