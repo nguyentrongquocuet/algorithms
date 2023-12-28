@@ -70,16 +70,14 @@ def createFile(path: Path, fileName: str, content: str):
     return True
 
 
-README = """
-# <Problem name>
+README = """# <Problem name>
 
 # Problem Overview
 
 # Solution Strategy
 
 """
-SOLUTION = """
-def solution():
+SOLUTION = """def solution():
   # write solution here
   pass
 

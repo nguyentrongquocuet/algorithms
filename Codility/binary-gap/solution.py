@@ -1,4 +1,3 @@
-
 def solution(N):
     while N % 2 == 0:
         N = N // 2
