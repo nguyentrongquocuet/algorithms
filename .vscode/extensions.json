@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ms-python.autopep8",
+    "editorconfig.editorconfig",
+    "donjayamanne.python-environment-manager",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "bierner.markdown-preview-github-styles"
+  ]
+}
