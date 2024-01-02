@@ -39,7 +39,7 @@ To get the NOS of `S[i]` we simply add `S[i]` to the end of every prev NOS, plus
 We start with `S[0]` which is `a`
 ```
 dp = {
-  a: 1, # a
+  a: 0 + 1, # a
   b: 0,
   c: 0
 }
@@ -50,7 +50,7 @@ Same with `S[1]` (`b`)
 ```
 dp = {
   a: 1, # a
-  b: 2, # ab, b
+  b: 1 + 1, # ab, b
   c: 0
 }
 ```
@@ -61,7 +61,7 @@ With `S[2]`(`c`)
 dp = {
   a: 1, # a
   b: 2, # ab, b
-  c: 4, # ac, abc, bc, c
+  c: 1 + 2 + 1, # ac, abc, bc, c
 }
 ```
 
@@ -70,7 +70,7 @@ With `S[3]`, which is also `b`
 ```
 dp = {
   a: 1, # a
-  b: 2, # ab, abb, bb, acb, abcb, bcb, cb, b
+  b: 1 + 2 + 4 + 1, # ab, abb, bb, acb, abcb, bcb, cb, b
   c: 4, # ac, abc, bc, c
 }
 ```
